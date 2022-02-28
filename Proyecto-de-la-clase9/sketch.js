@@ -1,7 +1,7 @@
 
 function setup() {
   createCanvas(400,400);
-  background(51);
+  background("white");
   box = createSprite(200,200,30,30);
 
 }
@@ -10,9 +10,9 @@ function draw()
 {
 
   // escribir el código para cambiar el color del fondo 
-  if (keyIsDown(RIGTH_ARROW)) 
+  if (keyIsDown(RIGHT_ARROW)) 
   {
-    background("purple");
+    background("red");
     
   }
  
